@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import gears from "./Gears.gif";
 
 function App() {
   return (
@@ -9,9 +10,8 @@ function App() {
           Welcome to <br />
           Mickaël Thely's Portfolio
         </h1>
-        <p>
-          <strng>This application is under building ...</strng>
-        </p>
+        <h3>This application is under building ...</h3>
+        <img src={gears} alt="app is under building" className="machine" />
       </header>
     </div>
   );
