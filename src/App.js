@@ -13,6 +13,30 @@ function App() {
         <h3>This application is under building ...</h3>
         <img src={gears} alt="app is under building" className="machine" />
       </header>
+      <main>
+        Feel free to contact me at :
+        <ul>
+          <li>
+            <a href="mailto:contact@mickael-thely.me" className="App-link">
+              <i className="icon-envelope"></i>&nbsp; contact@mickael-thely.me
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/mickael-thely"
+              className="App-link"
+            >
+              <i className="icon-linkedin-square"></i>&nbsp;
+              LinkedIn.com/in/mickael-thely
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tmicka23" className="App-link">
+              <i className="icon-github-square"></i>&nbsp; Github.com/tmicka23
+            </a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
