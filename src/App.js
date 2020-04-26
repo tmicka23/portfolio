@@ -17,7 +17,12 @@ function App() {
         Feel free to contact me at :
         <ul>
           <li>
-            <a href="mailto:contact@mickael-thely.me" className="App-link">
+            <a
+              href="mailto:contact@mickael-thely.me"
+              className="App-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="icon-envelope"></i>&nbsp; contact@mickael-thely.me
             </a>
           </li>
@@ -25,13 +30,20 @@ function App() {
             <a
               href="https://linkedin.com/in/mickael-thely"
               className="App-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="icon-linkedin-square"></i>&nbsp;
               LinkedIn.com/in/mickael-thely
             </a>
           </li>
           <li>
-            <a href="https://github.com/tmicka23" className="App-link">
+            <a
+              href="https://github.com/tmicka23"
+              className="App-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="icon-github-square"></i>&nbsp; Github.com/tmicka23
             </a>
           </li>
